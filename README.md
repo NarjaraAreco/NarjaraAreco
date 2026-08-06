@@ -35,7 +35,7 @@
 
 ## 📫 Contato
 
-- 💼 LinkedIn: https://www.linkedin.com/in/narjara-aréco-30730320autm_source=share_via&utm_content=profile&utm_medium=member_ios
+- 💼 LinkedIn: https://www.linkedin.com/in/narjara-areco/
 - 📧 E-mail: narjaracatherine@gmail.com
 
 ---
