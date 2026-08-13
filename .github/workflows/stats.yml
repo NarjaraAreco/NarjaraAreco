@@ -1,0 +1,24 @@
+name: Atualizar estatísticas
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: cicirello/user-statistician@v1
+        with:
+          colors: dark-dimmed
+          custom-title: Minhas estatísticas do GitHub
+          image-file: images/userstats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
